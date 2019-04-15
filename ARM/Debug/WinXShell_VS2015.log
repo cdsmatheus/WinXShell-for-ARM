@@ -1,0 +1,69 @@
+﻿cl : Command line warning D9038: /ZI is not supported on this platform; enabling /Zi instead
+cl : Command line warning D9007: '/Gm' requires '/Zi'; option ignored
+cl : Command line warning D9002: ignoring unknown option '/ZI'
+  precomp.cpp
+c:\pexplorer\utility/utility.h(845): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstdio.h(1122): note: see declaration of '_vsnwprintf'
+c:\pexplorer\utility/utility.h(855): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstdio.h(1122): note: see declaration of '_vsnwprintf'
+c:\pexplorer\utility/utility.h(866): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstdio.h(1122): note: see declaration of '_vsnwprintf'
+c:\pexplorer\utility/utility.h(876): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstdio.h(1122): note: see declaration of '_vsnwprintf'
+c:\pexplorer\utility/shellclasses.h(709): warning C4090: 'argument': different '__unaligned' qualifiers
+c:\pexplorer\utility/shellclasses.h(946): warning C4090: '=': different '__unaligned' qualifiers
+cl : Command line warning D9038: /ZI is not supported on this platform; enabling /Zi instead
+cl : Command line warning D9007: '/Gm' requires '/Zi'; option ignored
+cl : Command line warning D9002: ignoring unknown option '/ZI'
+  jcfg.cpp
+jconfig\jcfg.cpp(158): warning C4018: '>': signed/unsigned mismatch
+  json.cpp
+  Generating Code...
+cl : Command line warning D9038: /ZI is not supported on this platform; enabling /Zi instead
+cl : Command line warning D9007: '/Gm' requires '/Zi'; option ignored
+cl : Command line warning D9002: ignoring unknown option '/ZI'
+  fileexplorer.cpp
+shell\fileexplorer.cpp(424): warning C4018: '<=': signed/unsigned mismatch
+  shellbrowserimpl.cpp
+  shellclasses.cpp
+  utility.cpp
+utility\utility.cpp(169): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+utility\utility.cpp(276): warning C4996: 'GetVersionExW': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\sysinfoapi.h(445): note: see declaration of 'GetVersionExW'
+utility\utility.cpp(279): warning C4996: 'GetVersionExW': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\sysinfoapi.h(445): note: see declaration of 'GetVersionExW'
+utility\utility.cpp(547): warning C4996: '_wsplitpath': This function or variable may be unsafe. Consider using _wsplitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstdlib.h(380): note: see declaration of '_wsplitpath'
+  window.cpp
+  desktopbar.cpp
+  quicklaunch.cpp
+taskbar\quicklaunch.cpp(228): warning C4838: conversion from 'int' to 'BYTE' requires a narrowing conversion
+  startmenu.cpp
+taskbar\startmenu.cpp(253): warning C4996: '_wsplitpath': This function or variable may be unsafe. Consider using _wsplitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstdlib.h(380): note: see declaration of '_wsplitpath'
+  taskbar.cpp
+taskbar\taskbar.cpp(177): warning C4996: 'GetVersionExW': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\sysinfoapi.h(445): note: see declaration of 'GetVersionExW'
+  traynotify.cpp
+  desktop.cpp
+  entries.cpp
+  shellfs.cpp
+shell\shellfs.cpp(49): warning C4838: conversion from 'UINT' to 'CLIPFORMAT' requires a narrowing conversion
+  winfs.cpp
+  settings.cpp
+  explorer.cpp
+explorer.cpp(842): warning C4996: '_wsplitpath': This function or variable may be unsafe. Consider using _wsplitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wstdlib.h(380): note: see declaration of '_wsplitpath'
+  shellservices.cpp
+  Generating Code...
+cl : Command line warning D9038: /ZI is not supported on this platform; enabling /Zi instead
+cl : Command line warning D9007: '/Gm' requires '/Zi'; option ignored
+cl : Command line warning D9002: ignoring unknown option '/ZI'
+  startup.c
+LINK : warning LNK4199: /DELAYLOAD:wsock32.dll ignored; no imports found from wsock32.dll
+  WinXShell_VS2015.vcxproj -> C:\PExplorer\ARM\Debug\WinXShell.exe
+BSCMAKE : warning BK4503: minor error in .SBR file 'ARM\Debug\fileexplorer.sbr' ignored
+BSCMAKE : warning BK4503: minor error in .SBR file 'ARM\Debug\traynotify.sbr' ignored
+BSCMAKE : warning BK4503: minor error in .SBR file 'ARM\Debug\desktop.sbr' ignored
+BSCMAKE : warning BK4503: minor error in .SBR file 'ARM\Debug\precomp.sbr' ignored
